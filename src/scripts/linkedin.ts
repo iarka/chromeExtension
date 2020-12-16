@@ -3,12 +3,14 @@ import Profile from "../models/profile";
 async function getProfileInfos(): Promise<Profile> {
   const fullName = document.querySelectorAll('.pv-top-card--list li')[0];
   const title = document.querySelectorAll('.pv-top-card h2.mt1')[0];
-  const image = document.querySelectorAll('.profile-photo-edit img')[0]
+  const image = document.querySelectorAll('.profile-photo-edit img')[0];
+  const company = document.querySelectorAll('.EntityPhoto-square-5')[0]
   return {
     fullName: fullName.textContent.replace(/\n/, "").trim(),
     title: title.textContent.replace(/\n/, "").trim(),
     country: "XXX",
-    imageSrc: image.getAttribute('src')
+    imageSrc: image.getAttribute('src'),
+    company: company.getAttribute('src')
   };
 }
 

@@ -1,0 +1,27 @@
+.app {
+  font-weight: 700;
+}
+
+.profile-image {
+  top: 50%;
+  left: 1.5rem;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  border-radius: 100%;
+  border: 3px solid white;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.company {
+  width: 32px;
+  height: 32px;
+  right: 1.5rem;
+  bottom: -1rem;
+  background: white;
+  position: absolute;
+  border-radius: 100%;
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
