@@ -1,4 +1,4 @@
-import Profile from "../models/Profile";
+import Profile from "../models/profile";
 
 async function getProfileInfos(): Promise<Profile> {
   const fullName = document.querySelectorAll('.pv-top-card--list li')[0];
