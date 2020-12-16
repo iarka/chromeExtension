@@ -5,8 +5,8 @@
 .profile-image {
   top: 50%;
   left: 1.5rem;
-  width: 128px;
-  height: 128px;
+  width: 64px;
+  height: 64px;
   position: absolute;
   border-radius: 100%;
   border: 3px solid white;
@@ -15,8 +15,8 @@
 }
 
 .company {
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   right: 1.5rem;
   bottom: -1rem;
   background: white;
